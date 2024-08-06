@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form action="">
+            <p>
+                <label>
+                    <select name="groceries">
+                        <option>milk</option>
+                        <option>bread</option>
+                        <option>eggs</option>
+                        <option>cheese</option>
+                    </select>
+                    <textarea name="message" row="3" cols="40">Enter your message</textarea>
+                    <input type="reset" value="reset"/><br><br>
+                    <input type="submit" value="Go"/><br><br>
+                    <input type="Button"name="button" value="my button"/><br><br>
+                   color <input type="color"/><br><br>
+                    date time<input type="datetime"/><br><br>
+                  month  <input type="month"/><br><br>
+                   email <input type="email"/><br><br>
+                    URL<input type="url"/><br><br>
+                   my photo <input type="file"/>
+                   datetime<input type="datetime-local"/>
+
+
+
+
+             
+
+
+                </label>
+            </p>
+        </form>
+    </table>
+    
+</body>
+</html>
