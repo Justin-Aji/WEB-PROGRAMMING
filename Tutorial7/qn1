@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial-7</title>
+    <style>
+        body{
+              background:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.gRtZa_HU9eA7SVs96KR6RQHaE-%26pid%3DApi&f=1&ipt=78887c9e93209a6cf5756648c6db602a3a593a3e6d4ebb81c5bdb9c969c8b119&ipo=images');
+              margin: 3%;
+              border: 2px dotted black;
+              background-size: cover;
+
+                
+        }
+        a:hover , a:active{
+            background-color: yellow;
+            color: aliceblue;
+        }
+        ol {
+            list-style-type: lower-alpha; 
+        }
+    </style>
+</head>
+<body>
+    <a href="" style="color: aliceblue;">hover</a>
+    <ol>
+        <li>colour</li>
+        <li>flavour</li>
+        <li>channel</li>
+        
+    </ol>
+    
+
+    
+</body>
+</html>
