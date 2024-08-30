@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial-7</title>
+    <style>
+        a{
+            background-color: red;
+            font-style: italic;
+            color: aliceblue;
+            padding: 10px;
+        }
+        ul{
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(1, 4, 6);
+        }
+        body{
+            background-image: url("tenor.gif");
+            background-size: cover;
+            
+        }
+    </style>
+</head>
+
+
+<body>
+    <a href="">home</a>&nbsp;&nbsp;&nbsp;
+    <a href="">log</a>&nbsp;&nbsp;&nbsp;
+    <a href="">status</a>
+    <ul>
+        <li>Nike</li>
+        <li>Addida</li>
+        <li>Puma</li>
+        <li>Etios</li>
+      
+    </ul>
+    
+</body>
+</html>
