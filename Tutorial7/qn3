@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial-7</title>
+    <style>
+        a:hover, a:active{
+                background-color: green;
+                color: aliceblue;
+
+
+        }
+        ul{
+            list-style: square;
+        }
+        body{
+            background: url('https://images.pexels.com/photos/35646/pexels-photo.jpg?cs=srgb&dl=close-up-dahlia-flower-35646.jpg&fm=jpg');
+            background-size: cover;
+            color: aliceblue;
+        }
+        table{
+            width: 20%; 
+            
+            border-top: 4px double rgb(252, 249, 249);
+            border-bottom: 4px double rgb(230, 226, 226);
+            border-left: 4px dotted rgb(208, 202, 202);
+            border-right: 4px dotted rgb(230, 227, 227);
+            
+        }
+        td {
+            border: 1px solid rgb(247, 238, 238); 
+            padding: 10px; 
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <a href="">menu</a>
+    <a href="">home</a>
+
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Grapes</li>
+    </ul>
+    
+    <table >
+        <tbody>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+            </tr>
+            <tr>
+                <td>three</td>
+                <td>four</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
