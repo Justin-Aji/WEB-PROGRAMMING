@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usr Reg</title>
+    <script>
+        function validate(evnt){
+            var username = document.getElementById('usr-name').value;
+            var phone = document.getElementById('usr-tel').value;
+            var email = document.getElementById('usr-email').value;
+            var password = document.getElementById('usr-pass').value;
+            var password1 = document.getElementById('usr-pass1').value;
+            
+            if(username === '')
+            {
+                alert("no blank username");
+                return false;
+            }
+            if(phone.length < 10 || phone.length >10){
+                alert("type correct number")
+                return false;
+            }
+            if (password !== password1) {
+                alert("Passwords do not match.");
+                return false;
+            }
+           
+            alert("Registration successful!");
+           //console.log(document.getElementById("registrationForm").submit())
+
+
+        }
+    </script>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form id="registrationForm" onsubmit="validate(event)">
+        <label for="usr-name" >UserName</label>
+        <input type="text" id="usr-name" />
+         <br><br>
+        <label for="usr-tel" >Phone</label>
+        <input type="tel" id="usr-tel"/>
+        <br><br>
+        <label for="usr-email" >Email</label>
+        <input type="text" id="usr-email"/>
+        <br><br>
+        <label for="usr-name" >Password</label>
+        <input type="password" id="usr-pass"/>
+        <br><br>
+        <label for="usr-pass1" >Confirm Password</label>
+        <input type="password" id="usr-pass1"/>   
+        <br><br>
+        <input type="submit" value="register" />
+     </form>
+     
+    
+</body>
+</html>
