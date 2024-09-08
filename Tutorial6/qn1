@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial-6</title>
+    <script>
+        function validate(event){
+            var username = document.forms["feed"]["username"].value;
+            var password = document.forms["feed"]["password"].value;
+            if(username === "")
+            {
+                  alert("empty");
+                  event.preventDefault();
+                  return false;
+            }
+            if(password.length < 6)
+            {
+               alert("password less than 6 letters  ");
+               event.preventDefault();
+               return false;
+            }
+            alert("success");
+            return true;
+        }
+    </script>
+</head>
+<body>
+   
+<h1>Validating Textboxes</h1>
+<form name="feed">
+    <label for="username">Username</label>
+    <input type="text" name="username"  />
+    <br>
+    <br>
+    <label for="password">Password</label>
+    <input type="password" name="password" />
+    <br>
+    <br>
+    <input type="submit" value="Submit" onclick="validate(event)"/>
+</form>
+
+
+</body>
+</html>  
